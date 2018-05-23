@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+#Party{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    float: left;
+}
+#Opcion{
+    text-align: inherit;
+
+}
+p{
+text-align: center;
+}
+#Result{
+    text-align: center;
+}
