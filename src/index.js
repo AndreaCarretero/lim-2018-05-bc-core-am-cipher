@@ -1,13 +1,13 @@
 // Se asignan variables para la implementación del código cesar
 
-let text="ingresa tu mensaje aquí";
-let offset= parseInt("Ingresa el offset que desees") ;
-let result, formula;
-// creando función y colocand fórmula para cifrar texto
-// fórmula: (x-65+n)%26 +65
-let messagenew=(text,offset) => {
-	formula=(text.charCodeAt(0)-65+offset) %26 +65;
-	result=String.fromCharCode(formula);
-	return result;
-}
-alert(messagenew())
+//El usuario ingresa su  mensaje aquí 
+ let text=document.getElementById('message').value;
+ //Varible para colocar el número que se desea desplazar a la derecha(cifrado) o izquierda
+ //o (descrifrado)
+let offset=document.getElementById('offs').value
+ parseInt(offset);
+ let numOffset= parseInt(offset);
+
+ 
+ 
+

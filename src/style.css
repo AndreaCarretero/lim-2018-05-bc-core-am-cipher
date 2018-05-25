@@ -1,7 +1,12 @@
+body{
+    background-image: 
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlEVrn7KEvZNqG7VM8KGpi17a50-8zXHAgmvv1bwSb6UG21hbX);
+}
 h1{
     text-align: center;
 }
 .party{
+    font-size: larger;
     text-align: center;
     margin: 10px 0 10px 0;
     float: left;
@@ -12,6 +17,6 @@ h1{
 p{
 text-align: center;
 }
-.result{
+.result1{
     text-align: center;
 }
