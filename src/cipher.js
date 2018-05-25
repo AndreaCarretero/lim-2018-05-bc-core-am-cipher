@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.cipher = {
   // ... 
+  encode
+  decode 
 };
