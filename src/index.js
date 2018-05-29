@@ -2,6 +2,7 @@
 // Se asignan variables para la implementación del código cesar
 
 let numberOffset; // Declaro variable para almancenar offset tipo número
+let textext; // Declaro variable para almacenar texto
 let clickCifred = () => {//El usuario ingresa su  mensaje aquí
     let texttext = document.getElementById('message').value;
     //Varible para colocar el número que se desea desplazar a la derecha(cifrado) o izquierda
