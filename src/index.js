@@ -1,3 +1,4 @@
+// Asignaré variables 
 // Se asignan variables para la implementación del código cesar
 let clickCifred=()=>
 {//El usuario ingresa su  mensaje aquí
@@ -11,5 +12,3 @@ let clickCifred=()=>
 }
 
  document.getElementById('ci').addEventListener('click',clickCifred);
- 
-
