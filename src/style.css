@@ -9,11 +9,16 @@ h1{
     font-size: larger;
     text-align: center;
     margin: 10px 0 10px 0;
-    float: left;
+    display: block;
     
 }
 .opcion{
-    text-align: inherit;
+    text-align: center;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 5px;
 }
 p{
 text-align: center;

@@ -13,7 +13,7 @@ let clickCifred = () => {//El usuario ingresa su  mensaje aquí
 }
 document.getElementById('ci').addEventListener('click', clickCifred);
 
-let clickDecifred = () => {//El usuario ingresa su  mensaje aquí
+let clickDecifred = () => {//Asignando variable para click descrifrar
     let texttext = document.getElementById('message').value;
     //Varible para colocar el número que se desea desplazar a la derecha(cifrado) o izquierda
     //o (descrifrado)
