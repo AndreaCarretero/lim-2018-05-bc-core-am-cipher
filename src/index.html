@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <title>Caesar Cipher</title>
-    <!--Aquí enlazo el css con mi estructura html-->
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-      <h1>Fiesta sorpresa a Fio</h1>
-      <div class="party">
-      <label for="message">Escriba el mensaje aquí :  </label> 
-      <input id="message" placeholder=" Escriba el mensaje aquí:" ><type= "text" name="message"> <strong>|</strong> 
-      <input id="offset" type="number">
-      <label for= "n" ># de letras a cifrar/descifrar: </label> 
-      
-    </div>
 
-    <div class="opcion">
-      <input class="button" id="ci" type="button" value="Cifrar" ><strong> | </strong> <input class="button" id="deci" type="button" value="Descifrar">
-    </div>
+<head>
+  <meta charset='utf-8'>
+  <title>Caesar Cipher</title>
+  <!--Aquí enlazo el css con mi estructura html-->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <hr>
-      <hr>
-      
-    <div class="result1"> 
-      <p>Mensaje descrifrado: </p> 
-      <p id="result"></p>
-  
-      
-    </div>
-    
-      
+<body>
+  <h1>Tranquilx |Escribe sin miedo 😎 </h1>
+  <h2>Cifrado César-Código de Cesar, también conocido como cifrado por desplazamiento;consiste en sustituir cada letra del mensaje
+    con la letra que se encuentra "n" posiciones más adelante en el alfabeto.Este método debe su nombre a cifrado César, que lo usaba para comunicarse con sus generales.
+  </h2>
+  <h3>Por ejemplo:con un desplazamiento de 3, la
+      A sería sustituida por la D (situada 3 lugares a la derecha de la A ), 
+      la B sería reemplazada por la E, etc. </h3>
+      <h3> Ahora tu puedes comunicarte tal como lo hacia Julio César! </h3>
+  <hr>
+  <hr>
+  <div class="party">
+    <label for="message">Escriba el mensaje aquí : </label>
+    <input id="message" placeholder=" ▸▸▸">
+    <type="text" name="message">
+      <strong>|</strong>
+      <input id="offset" placeholder="▸" type="number">
+      <label for="n"># de letras a cifrar/descifrar: </label>
+  </div>
 
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  <div class="opcion">
+    <input class="button" id="ci" type="button" value="Cifrar">
+    <strong> | </strong>
+    <input class="button" id="deci" type="button" value="Descifrar">
+  </div>
+
+  <div class="result1">
+    <p>Mensaje descrifrado: </p>
+    <p id="result"></p>
+
+
+  </div>
+
+
+
+  <div id="root"></div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

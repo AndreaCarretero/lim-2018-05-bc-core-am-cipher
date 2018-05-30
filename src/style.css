@@ -4,6 +4,30 @@ body{
 }
 h1{
     text-align: center;
+    font-family:"apercu",sans-serif;
+    
+}
+h2{
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    font-family:"apercu",sans-serif;
+    font-size: 17.5px;
+    font-weight: 300;
+    color: #202121;
+    overflow-x: hidden;
+    display: block;
+    box-sizing: inherit;
+    margin: auto;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    font-family:"apercu",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 .party{
     font-size: larger;
