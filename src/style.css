@@ -2,7 +2,6 @@ body{
     background-size: cover;
     background-image:
     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROb7cBslU9lSzPR5IM9ExPVARbHxSqhwPcx0up7YViPkrVxXq);
-
 }
 h1{
     font-family: 'Elsie Swash Caps', cursive; 
@@ -43,22 +42,12 @@ h3{
     border-radius: 10px;
     font-size: 20px;
     width:270px;
-    height: 250px;
+    height: 240px;
     float: left;
     background-color: #cc2424c5;
-    margin-left: 180px;
+    margin-left: 160px;
+    margin-right: 20px;
    
-}
-.number{
-    font-family: 'Elsie Swash Caps', cursive;
-    color: #000000;
-    font-size:17px;
-    width:390px;
-    height: 32px;
-    float: left;
-    background-color: #cc2424c5;
-    margin-left: 290px;
-    border-radius: 10px;
 }
 
 #message{
@@ -82,9 +71,11 @@ h3{
     font-family: 'Elsie Swash Caps', cursive;
     font-size: 20px;
     border-radius:9px;
+    float: left;
 }
 #deci{
     font-family: 'Elsie Swash Caps', cursive;
     font-size: 20px;
     border-radius: 9px;
+    float: left;
 }
