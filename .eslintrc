@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true,
-    "mode" : true,
+    "node" : true,
     "mocha" : true
   },
   "parserOptions": {

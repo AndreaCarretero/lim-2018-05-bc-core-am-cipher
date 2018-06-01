@@ -1,11 +1,11 @@
-window.cipher = {
+window.cipher = { // objeto global 
   // ... creando objeto- y función
   encode: (offset, string) => {
     let numberAscii;
     let newnumberAscii;
     let letterAscii;
     let textcod = '';
-    for (i = 0; i < string.length; i++) {
+    for (let i = 0; i < string.length; i++) {
       numberAscii = string.charCodeAt(i); // asigno una variable donde obtenga una caja que se
       // almacene un texto y extraiga la posición ascii de cada letra que me da el arreglo(conjunto de espacios)
       if (numberAscii >= 65 && numberAscii <= 90) {
@@ -28,7 +28,7 @@ window.cipher = {
     let newnumberAscii;
     let letterAscii;
     let textcod = '';
-    for (i = 0; i < string.length; i++) {
+    for (let i = 0; i < string.length; i++) {
       numberAscii = string.charCodeAt(i); // asigno una variable donde obtenga una caja que se
       // almacene un texto y extraiga la posición ascii de cada letra que me da el arreglo(conjunto de espacios)
       if (numberAscii >= 65 && numberAscii <= 90) {
@@ -45,5 +45,14 @@ window.cipher = {
       textcod = textcod.concat(letterAscii);
     }
     return textcod;
+  },
+  createCipherWithOffset: (offset) => {
+    let returnn = {
+      encode :(string) =>{return cipher.encode(offset,string)}
+      ,
+      decode:(string) =>{return cipher.decode(offset,string)}
+
+    }; 
+    return returnn
   }
 };
