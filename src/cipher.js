@@ -15,7 +15,8 @@ window.cipher = {
         if (numberAscii >= 97 && numberAscii <= 122) {
           newnumberAscii = (numberAscii - 97 + offset) % 26 + 97;
           letterAscii = String.fromCharCode(newnumberAscii);
-        } else {
+        }
+        else {
           letterAscii = string.charAt(i);
         }
       }
