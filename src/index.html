@@ -2,17 +2,20 @@
 <html>
 
 <head>
-  <meta charset='utf-8'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caesar Cipher</title>
   <!--Aquí enlazo el css con mi estructura html-->
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Elsie" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Tranquilx |Escribe sin miedo 😎 </h1>
-  <h2>Cifrado César-Código de Cesar, también conocido como cifrado por desplazamiento;consiste en sustituir cada letra del mensaje
-    con la letra que se encuentra "n" posiciones más adelante en el alfabeto.Este método debe su nombre a cifrado César,
+  
+  <h1>Tranquilx |Escribe sin miedo  </h1>
+  <h2>Cifrado César o Código de Cesar,consiste en sustituir cada letra del mensaje con la letra que se encuentra "n" posiciones más adelante en el alfabeto.
+    Este método debe su nombre a cifrado César,
     que lo usaba para comunicarse con sus generales.
   </h2>
   <h3>Por ejemplo:con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B
@@ -20,24 +23,29 @@
   <h3> ¡Ahora tu puedes comunicarte tal como lo hacia Julio César! </h3>
   <hr>
   <hr>
+<div class=textAndOffset>
   <div class="text-insert">
-    <label for="message">Escriba el mensaje aquí : </label>
+    <p id="here">Escriba el mensaje aquí : </p>
     <textarea id="message" class="" placeholder=" ▸▸▸" type="text" name="message"> </textarea>
   </div>
-
-  <div class="number">
+ 
+  <div class="offset-insert">
     <input id="offset" placeholder="▸" type="number">
-    <label for="offset"># de letras a cifrar/descifrar</label>
+    <p id="n" ># de letras a cifrar/descifrar</p>
   </div>
-
+</div>    
 
 
   <div class="opcion">
     <input class="button" id="ci" type="button" value="Cifrar">
     <input class="button" id="deci" type="button" value="Descifrar">
-    <p>Mensaje descrifrado: </p>
+    <p id="messagecipher" >Mensaje descrifrado: </p>
     <p id="result"></p>
-  </div>
+  </div>  
+  
+  
+    
+  
 
 
 
