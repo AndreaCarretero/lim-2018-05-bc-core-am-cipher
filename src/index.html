@@ -7,49 +7,58 @@
   <title>Caesar Cipher</title>
   <!--Aquí enlazo el css con mi estructura html-->
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Elsie" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Playfair+Display" rel="stylesheet">
 </head>
 
 <body>
   
-  <h1>Tranquilx |Escribe sin miedo  </h1>
-  <h2>Cifrado César o Código de Cesar,consiste en sustituir cada letra del mensaje con la letra que se encuentra "n" posiciones más adelante en el alfabeto.
-    Este método debe su nombre a cifrado César,
-    que lo usaba para comunicarse con sus generales.
-  </h2>
-  <h3>Por ejemplo:con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B
-    sería reemplazada por la E, etc. </h3>
-  <h3> ¡Ahora tu puedes comunicarte tal como lo hacia Julio César! </h3>
+  <h1>Tranquil@s|🎈 ¡Escribámos sin miedo!🎉 </h1>
+  <div class="div1">
+    <button id="button1"  >Paso 1 👉</button>
+    <h2 id="step1">Para cifrar : escribe el mensaje.</h2> </div>
+  
+  <div class="div2">
+    <button id="button2" >Paso 2 👉</button>
+    <h2 id="step2" >Coloca el número de posiciones que se cambiarán en el alfabeto(puedes intentar de 1-100).</h2>
+  </div>
+  
+  <div class="div3">
+    <button id="button3" >Paso 3 👉</button>
+    <h2 id="step3">Dale al botón cifrar y obtienes tu texto codificado. </h2>
+  </div>
+
+  <div class="div4">
+    <button id="button4" >¿Quieres descifrar? 👉</button>
+    <h2 id="step4" >Pega el texto codificado,coloca el # de posiciones que te brindó el contacto, dale a "descifrar"y ¡LISTO!  </h2>
+  </div>
+    
+
+  
+  <h3> ¡Ahora ya podemos comunicarnos sin que Fio se entere de su fiesta sorpresa!  </h3>
   <hr>
   <hr>
-<div class=textAndOffset>
+<div class=textOffsetandResult>
   <div class="text-insert">
-    <p id="here">Escriba el mensaje aquí : </p>
-    <textarea id="message" class="" placeholder=" ▸▸▸" type="text" name="message"> </textarea>
+    <p id="here">Mensaje aquí : </p>
+    <textarea id="message"  placeholder=" ▸▸▸" type="text" name="message"> </textarea>
   </div>
  
   <div class="offset-insert">
+    <p id="n" > <strong>" # "</strong> de posiciones a cifrar/descifrar</p>
     <input id="offset" placeholder="▸" type="number">
-    <p id="n" ># de letras a cifrar/descifrar</p>
   </div>
+  <div class="divresult"> 
+      <p id="messagecipher" >Mensaje descrifrado: </p>
+        <p id="result"></p>
+  </div>
+        
 </div>    
 
-
   <div class="opcion">
-    <input class="button" id="ci" type="button" value="Cifrar">
-    <input class="button" id="deci" type="button" value="Descifrar">
-    <p id="messagecipher" >Mensaje descrifrado: </p>
-    <p id="result"></p>
-  </div>  
+      <input class="button" id="ci" type="button" value="Cifrar">
+      <input class="button" id="deci" type="button" value="Descifrar">
+    </div>
   
-  
-    
-  
-
-
-
-
 
   <div id="root"></div>
   <script src="cipher.js"></script>
