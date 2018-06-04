@@ -71,6 +71,9 @@ describe('cipher.encode', () => {
         it('debería ser una función', () => {
           assert.equal(typeof cipher.createCipherWithOffset(33).encode, 'function');
         });
+        it('debería retornar "HIJ hij" para " ABC abc" con offset 33', () => {
+          assert.equal(cipher.createCipherWithOffset(33).encode("ABC abc"), "HIJ hij");
+        });
       });
     });
 
