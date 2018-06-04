@@ -1,7 +1,6 @@
-# Cifrado César
+# Proyecto1: Leslie Andrea aplicando Cifrado César 
 
 ## Preámbulo
-
 Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
 fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
 con amigos y familiares.
@@ -13,6 +12,9 @@ crear una aplicación que te permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
+
+-Hya 
+
 ## Introducción
 
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
@@ -20,22 +22,35 @@ primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado po
 sustitución en el que una letra en el texto original es reemplazada por otra
 letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![caeser-cipher](http://slideplayer.es/5424527/17/images/16/Cifrado+Cesar+sustituci%C3%B3n+monoalfabeto.jpg)
 
-El emperador Julio César lo usaba para enviar órdenes a sus generales en los
-campos de batalla, es una de las técnicas más simples y más usadas para cifrar
-un mensaje.
+Julio César sustituía cada letra de su mensaje con la letra que se encontró tres posiciones más adelante en el alfabeto; por lo que cada una A se convirtía en D, cada B se hacía ed E, y así sucesivamente; las tres últimas letras del alfabeto fueron reemplazados por las tres primeras.
+Por ejemplo, usando el cifrado César:
 
-Por ejemplo si usáramos un desplazamiento de 3:
+                                 "Omnia Gallia est divisa in partes tres"
+                                 RPQND LDOOND HVZ GNBNVD NQ SDUZHV ZUHV
 
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+Otro ejemplo -si usáramos un desplazamiento de 3:
+
+         * Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+        * Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 Actualmente todos los cifrados de sustitución alfabética simple, se descifran
 con facilidad y en la práctica no ofrece mucha seguridad en la comunicación,
 pero el cifrado César muchas veces puede formar parte de sistemas más complejos
 de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
 sistema ROT13.
+
+### Definición del producto
+
+En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
+producto y cuál fue tu proceso para definir el producto final a nivel de
+experiencia y de interfaz.
+
+* quiénes son los principales usuarios de producto
+* cuáles son los objetivos de estos usuarios en relación con el producto
+* cómo crees que el producto que estás creando les está resolviendo sus
+  problemas
 
 ## Objetivos
 
@@ -62,70 +77,6 @@ disponibles. Es la primera vez que evaluaremos tus habilidades blandas, pero deb
 considerar que son habilidades que probablemente ya has utilizado en distintas
 experiencias de tu vida. Lo importante es que realices el proyecto de manera
 integral.
-
-## Consideraciones generales
-
-La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-
-No se debe utilizar la _pseudo-variable_ `this`.
-
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
-test`.
-
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
-
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
-
-El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
-`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
-configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
-
-## Parte obligatoria
-
-### Definición del producto
-
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
-producto y cuál fue tu proceso para definir el producto final a nivel de
-experiencia y de interfaz.
-
-* quiénes son los principales usuarios de producto
-* cuáles son los objetivos de estos usuarios en relación con el producto
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
 
 ### UI
 
