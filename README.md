@@ -52,6 +52,20 @@ experiencia y de interfaz.
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 
+
+
+
+
+
+
+
+ Versiones anteriores- 
+ ![Versión# 1](imágenes%20para%20read%20me/IMG_5697.JPG)
+ 
+ 
+ Versión #2:
+ ![Versión# 2](imágenes%20para%20read%20me/IMG_5695.JPG)
+ 
 ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es tener tu primera
