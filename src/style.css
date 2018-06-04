@@ -143,7 +143,7 @@ hr{
     margin-right:190px
 
 }
-.textOffsetandResult{  /*Contenedor que encierra mis 
+#textOffsetandResult{  /*Contenedor que encierra mis 
     dos div: textinsert-offset insert */
     overflow: auto;
     margin-left: -80px;
