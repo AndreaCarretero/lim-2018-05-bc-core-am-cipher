@@ -1,19 +1,21 @@
 # Proyecto1: Leslie Andrea aplicando Cifrado César 
 
 ## Preámbulo
-Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
+Está próxima la fecha del cumpleaños de tu amig@  y estás organizando una
 fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
 con amigos y familiares.
 
 Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
-(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
+(como supondrás) eso nunca sucede y tu amig@ es quien termina apagando la alarma
 y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
 crear una aplicación que te permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
+Luego de una ardua búsqueda por encontrar un método sencillo ,"fácil de entender" 
+y práctico en simples pasos;me topo con "El cifrado César"....
 
--Hya 
+
 
 ## Introducción
 
@@ -41,18 +43,82 @@ pero el cifrado César muchas veces puede formar parte de sistemas más complejo
 de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
 sistema ROT13.
 
-### Definición del producto
 
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
-producto y cuál fue tu proceso para definir el producto final a nivel de
-experiencia y de interfaz.
 
-* quiénes son los principales usuarios de producto
-* cuáles son los objetivos de estos usuarios en relación con el producto
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
 
-## Objetivos
+## Definición del producto
+
+
+¿Quiénes son los principales usuarios de producto?
+° Los principales usuarios para este producto son amigos y familiares de la cumpleañera.Quienes están enterados de la
+fiesta sorpresa (organizadores de fiesta sorpresa).
+
+
+
+## ----- Decisiones para llegar a producto final
+
+
+-Al reconocer mis principales usuarios considero épocas distintas,edades no tan contemporáneas ya que los familiares podrán ser tios, primos y hasta los abuelos entonces decido implementar instrucciones o pasos a seguir (confirmando que ellos saben de mi aplicación web y están conscientes de que el texto que ellos escriban será cifrado -viceversa) 
+Colocando ya mis pasos a seguir ,el usuario se siente más cómodo porque solo es cuestión de leer uno por uno para poder entender la dinámica de la aplicación.
+
+-Una de mis decisiones principales fue el de implementar un fondo blanco para que puea distinguirse a simple vist ( los pasos a seguir, mis cuadros de texto y mis botones).Además,pensando en las personas mayores como los familiares quizá, el blanco se le hará menos "pesado" con letras negras al momento de leer las instrucciones.
+
+-Tomando en cuenta a los invitados jóvenes( diría invitados en general) decido desarrollar como sea posibles oraciones en segunda persona y así lograr una comunicación más directa.También utilizo un lenguaje no tan formal para que no solo sea directa,sino,amena.
+
+-Coloco una imagen de flores con determinados colores ya que el color favorito de la cumpleañera es verde , ella no lo sabrá pero todos nosotros estamos enterados de su favoritismo por el color, así cuando ingresen a la página identifiquen que la aplicación es para su fiesta sorpresa.
+
+¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+°Uno de los principales objetivos (con respecto a mi producto) es obtener un mensaje cifrado colocando un texto  y un número cual quiera que fuese para mandárselo al invitado que desee.
+°Otro de los objetivos es que ese invitado que recibió el mensaje cifrado, ingrese a la aplicación web ,coloqque el número que le informó la otra persona y pueda visualizar el mensaje descifrado y así poder responder con los mismos pasos a seguir.
+
+
+¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?
+Respondería esta pregunta comentando primero que podría ser la organizadora de la fiesta, tal vez la mejor amiga de la cumpleañera o hasta su misma hermana y quiero que sea un día muy genial para ella y los invitados,así que todo tiene que salir como lo espero.El gran problema es que WhatsApp es una aplicación móvil donde todos pueden ingresar y los mensajes se visualizan tal cual.Ella no debe enterarse para nada de la fiesta y tengo muy buenas ideas en mente para compartirles a todos los contactos.
+Entonces crear una aplicación que nos permita cifrar y descifrar el texto que querrámos comunicar con simples pasos  sin que ella lo note sería una increíble herramienta para todos.
+
+
+
+
+## Producto final realizado... pero,¿que existía antes?
+
+ Versiones anteriores- 
+ Esta es la primera versión implementando Html básico con etiquetas y diseño simple.
+ Jugué con los colores celeste y azul.Le coloqué color negro a todo el texto.
+ Al momento de probar esta interfaz mis usuarios leían la historia de Julio Cesar pero poco o casi nada les interesaba esa información, es decir no era trascendente ya que eso me lo preguntaban en persona.
+ -Algunos usuarios ( mencionando que somos contemporáneos en edades) comentaron en que sería mejor colocar pasos a seguir y así los invitados o hasta cualquiera que viese la aplicación no se sienta perdido sin saber que colocar o como hacerlo.
+ 
+ Nótese versión principal,simulacro:
+ ![Versión# 1](imágenes%20para%20read%20me/IMG_5697.JPG)
+ 
+ 
+ Versión #2:
+ En esta versión solo quise jugar con los colores, estaba en mi idea o visión lograr una aplicación web con fondos oscuros, con imágenes profesionales ( ya que a la cumpleañera le gusta muchísimo la fotografía) pensando en el público diverso ,sería interesante colocar algo general , no enfocarme en alguna temática,tener algo misterioso y elegante y este fue mi intento [...]
+ ![Versión# 2](imágenes%20para%20read%20me/IMG_5695.JPG)
+ 
+ 
+ ## Implementando algo distinto -
+ Expongo estos diagramas que hice para poder entender la lógica de mi proyecto( tenia que entender yo para lograr que los demás lo comprendan) .
+ -Para poder explicar mi algoritmo en texto y no en código :
+ 
+                      CIFRAR: 
+  ![Diagrama](imágenes%20para%20read%20me/Diagrama%20de%20flujo3-%20Cifrar.jpg)
+  
+  
+  ![DiagramaDecifrar](imágenes%20para%20read%20me/22.jpg)
+  
+  
+  
+## Entrega
+
+Mi proyecto es entregado -subiendo mi código a GitHub (`commit`/`push`) y la
+interfaz es desplegada usando g-h pages. (GIT HUB Pages)
+
+  
+  
+  
+  -------------------------------------------------------------------------
+ 
+ ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es tener tu primera
 experiencia construyendo una aplicación web usando tus conocimientos de **User
@@ -131,77 +197,7 @@ un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cóm
 quiere abarcar el reto o problema. Realizando una estimación realista del
 tiempo.
 
-## Entrega
-
-El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
-interfaz será desplegada usando GitHub pages.
-
-## Evaluación
-
-Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkQy1waRpQ-16sn7VogiDTy-Fz5e7OSZSYUCiHC_bkLAKYewr4L8pWJ_BG210PeULe-TjLScNQQT_x/pubhtml#)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_.
-
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud | 3
-| Investigación | 3
-| Documentación | 2
-
-### Tech
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 2
-| Nomenclatura/semántica | 2
-| Funciones/modularidad | 1
-| Estructuras de datos | 0
-| Tests | 2
-| **HTML** | |
-| Validación | 2
-| Estilo | 3
-| Semántica | 2
-| SEO | 0
-| **CSS** | |
-| DRY | 2
-| Responsive | 2
-| **SCM** | |
-| Git | 1
-| GitHub | 2
-| **CS** | |
-| Lógica | 1
-| Arquitectura | 1
-| Patrones/paradigmas | 0
-
-### UX
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 2 |
-
-### Habilidades Blandas
-
-Para este reto queremos que intentes llegar al nivel 2 por lo menos en 5 de tus
-habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 2
-| Autoaprendizaje | 2
-| Solución de problemas | 2
-| Dar y recibir feedback | 2
-| Adaptabilidad | 2
-| Trabajo en equipo | 1
-| Comunicación eficaz | 1
-| Presentaciones | 1
-
 ***
-
-## Puntos de experiencia
-
-Este proyecto en el bootcamp te otorgará 100 XP (Puntos de experiencia).
 
 ## Primeros pasos
 
@@ -266,6 +262,4 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 * Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
   podrá apreciar todo el esfuerzo y trabajo que invertiste.
 
-## Recursos (Q & A)
 
-El código de [sli.do](https://www.sli.do/) para el proyecto 1 : U414
