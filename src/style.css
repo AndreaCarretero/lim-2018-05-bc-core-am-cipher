@@ -2,11 +2,10 @@
 
 body{
     background-attachment: fixed;
-    background-size: 110vw 110vh;
-    background-repeat: no-repeat;
+    background-size: 110vw 120vh;
     background-image:
     url(https://i.pinimg.com/originals/49/3f/73/493f73fe96a0570ffdf995fb415b2b85.jpg);
-}
+} 
 h1{
     font-family: 'Cinzel', serif; 
     letter-spacing: 1.3px;
@@ -242,7 +241,7 @@ hr{
     font-family: 'Playfair Display', serif;
     font-size:18px;
     margin-top: -230px;
-    margin-left: 860px;
+    margin-left: 750px;
 }
 
 #result{
