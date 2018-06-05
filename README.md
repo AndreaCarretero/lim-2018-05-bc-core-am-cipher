@@ -107,16 +107,35 @@ Entonces crear una aplicación que nos permita cifrar y descifrar el texto que q
   ![DiagramaDecifrar](imágenes%20para%20read%20me/22.jpg)
   
   
+  ### UI
+
+Según lo requerido -mi  interfaz debe permitir al usuario:
+
+* elegir un `offset` indicando cuántas posiciones queremos que el cifrado
+  desplace cada caracter  ✔️
+* insertar un mensaje (texto) que queremos cifrar  ✔️                    
+* ver el resultado del mensaje cifrado   ✔️
+* insertar un mensaje (texto) a descifrar   ✔️
+* ver el resultado del mensaje descifrado    ✔️
+  
+  
+                             ✔️✔️✔️✔️✔️
+
   
 ## Entrega
 
 Mi proyecto es entregado -subiendo mi código a GitHub (`commit`/`push`) y la
-interfaz es desplegada usando g-h pages. (GIT HUB Pages)
+interfaz es desplegada usando g-h pages. (GIT HUB Pages)              ✔️
 
   
   
   
-  -------------------------------------------------------------------------
+  
+  
+  
+  
+  
+  -----------------------------------------------------------------------------------------------------------------------------
  
  ## Objetivos
 
@@ -144,16 +163,7 @@ considerar que son habilidades que probablemente ya has utilizado en distintas
 experiencias de tu vida. Lo importante es que realices el proyecto de manera
 integral.
 
-### UI
 
-La interfaz debe permitir al usuario:
-
-* elegir un `offset` indicando cuántas posiciones queremos que el cifrado
-  desplace cada caracter
-* insertar un mensaje (texto) que queremos cifrar
-* ver el resultado del mensaje cifrado
-* insertar un mensaje (texto) a descifrar
-* ver el resultado del mensaje descifrado
 
 ### Scripts / Archivos
 
